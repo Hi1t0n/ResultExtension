@@ -8,6 +8,15 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>Result Pattern; Result; Pattern; Extension</PackageTags>
+        <Description>This is a .NET library for implementing Result pattern.</Description>
+        <RepositoryUrl>https://github.com/Hi1t0n/ResultExtension/tree/main</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
 </Project>
