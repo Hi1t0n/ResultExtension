@@ -16,7 +16,7 @@ public class Result<T>
         Value = value;
         IsSuccess = isSuccess;
         Message = message;
-        ResultType = ResultType;
+        ResultType = resultType;
     }
 
     /// <summary>
